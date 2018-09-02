@@ -1,16 +1,15 @@
 <?php
-require_once __DIR__.'/src/Smartpage/SayHello.php';
+require_once __DIR__.'/src/Dappurware/SayHello.php';
 
-$instance = new SayHello\Smartpage\SayHello();
-
-echo $instance->say("Hello World");
+$instance = new SmartPage\Dappurware\SayHello('Smart Page Extensions: ');
+$instance->say("Hello World, this is the greatest Dappur Extensions.");
 
 
 
 
 require_once __DIR__.'/src/RandomQuotes.php';
 // Creates a new object of RandomQuotes class.
-$rq = new SayHello\RandomQuotes();
+$rq = new SmartPage\RandomQuotes();
 echo "<br>";
 // Generates a random quote.
 print_r( $rq->generate() );
