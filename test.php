@@ -3,7 +3,7 @@ require_once __DIR__.'/src/Dappurware/SayHello.php';
 
 $instance = new SmartPage\Dappurware\SayHello('Smart Page Extensions: ');
 $instance->say("Hello World, this is the greatest Dappur Extensions.");
-
+print_r($instance->read());
 
 
 
