@@ -1,6 +1,6 @@
 <?php
 
-  namespace RandomQuotes;
+  namespace SayHello;
 
   class RandomQuotes {
 

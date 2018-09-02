@@ -10,7 +10,7 @@ echo $instance->say("Hello World");
 
 require_once __DIR__.'/src/RandomQuotes.php';
 // Creates a new object of RandomQuotes class.
-$rq = new \RandomQuotes\RandomQuotes();
+$rq = new SayHello\RandomQuotes();
 echo "<br>";
 // Generates a random quote.
 print_r( $rq->generate() );
