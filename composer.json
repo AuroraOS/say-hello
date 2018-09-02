@@ -1,6 +1,6 @@
 {
     "name": "auroraos/say-hello",
-	  "version": "1.0.0",
+	  "version": "1.0.1",
     "description": "Extension Frame",
     "type": "library",
     "license": "MIT",
@@ -10,7 +10,7 @@
             "email": "foxi4ever@gmail.com"
         }
     ],
-
+	"minimum-stability": "dev",
 		"require": {
         "php": ">=5.3.0"
     },
