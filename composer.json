@@ -10,9 +10,11 @@
             "email": "foxi4ever@gmail.com"
         }
     ],
-
-		"require": {
-        "php": ">=5.3.0"
+"require": {
+        "php": ">=5.3.0",
+	"hassankhan/config": "^1.0",
+	"gumlet/php-image-resize": "1.8.*",
+        "endroid/qr-code-bundle": "^3.2"
     },
     "autoload": {
         "psr-4": {
