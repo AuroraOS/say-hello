@@ -14,7 +14,7 @@ namespace SmartPage\Dappurware;
 class SayHello
 {
 		public function __construct($text = "First init of SP."){
-			$this->say($text);
+			return $this->say($text);
 		}
     public function say($toSay = "Nothing given")
     {
