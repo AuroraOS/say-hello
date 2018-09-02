@@ -1,5 +1,6 @@
 {
     "name": "auroraos/say-hello",
+	  "version": "1.0.0",
     "description": "Extension Frame",
     "type": "library",
     "license": "MIT",
