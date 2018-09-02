@@ -1,6 +1,6 @@
 <?php
 
-  namespace SayHello;
+  namespace SmartPage;
 
   class RandomQuotes {
 
