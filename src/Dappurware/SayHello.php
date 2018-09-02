@@ -13,11 +13,18 @@ namespace SmartPage\Dappurware;
 
 class SayHello
 {
+		public $msg = null;
 		public function __construct($text = "First init of SP."){
-			return $this->say($text);
+			$this->msg[] = $text;
+			return $this;
 		}
     public function say($toSay = "Nothing given")
     {
-      return $toSay;
+			$this->msg[] = $toSay;
+      return $this;
     }
+
+		public function read(){
+			return $this->msg;
+		}
 }
