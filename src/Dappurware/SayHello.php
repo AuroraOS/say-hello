@@ -16,12 +16,12 @@ class SayHello
 		public $msg = null;
 		public function __construct($text = "First init of SP."){
 			$this->msg[] = $text;
-			return $this;
+			return $this->msg;
 		}
     public function say($toSay = "Nothing given")
     {
 			$this->msg[] = $toSay;
-      return $this;
+      return $this->msg;
     }
 
 		public function read(){
