@@ -1,24 +1,25 @@
 {
-    "name": "auroraos/say-hello",
-	  "version": "1.0.0",
-    "description": "Extension Frame",
+    "name": "auroraos/smart-page",
+    "description": "Smart Page Extensions for Dappur Framework.",
     "type": "library",
-    "license": "MIT",
+		"version": "1.1.5",
+    "license": "mit",
     "authors": [
         {
             "name": "Bali Cako",
             "email": "foxi4ever@gmail.com"
         }
     ],
-"require": {
+    "minimum-stability": "stable",
+		"require": {
         "php": ">=5.3.0",
-	"hassankhan/config": "^1.0",
-	"gumlet/php-image-resize": "1.8.*",
+				"hassankhan/config": "^1.0",
+				"gumlet/php-image-resize": "1.8.*",
         "endroid/qr-code-bundle": "^3.2"
     },
     "autoload": {
         "psr-4": {
-            "SayHello\\": "src/"
+            "SmartPage\\": "src/"
         }
     }
 }
