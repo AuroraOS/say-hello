@@ -1,6 +1,6 @@
 <?php
 
-  namespace RandomQuotes;
+  namespace SmartPage;
 
   class RandomQuotes {
 
