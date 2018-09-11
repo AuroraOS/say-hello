@@ -1,20 +1,16 @@
 {
-	"tpl.macros" : "app/smartpage/views/macros",
 	"tpl.root": "app/smartpage/views",
+	"tpl.macros" : "app/smartpage/views/macros",
 	"tpl.inc": "app/smartpage/views/inc",
 	"tpl.headers" : "app/smartpage/views/headers",
 	"tpl.footers" : "app/smartpage/views/footers",
 	"tpl.modules" : "app/smartpage/views/modules",
-	"assets" : "app/smartpage/assets",
 	"assets.js" : "app/smartpage/assets/js",
 	"assets.css" : "app/smartpage/assets/css",
 	"assets.img" : "app/smartpage/assets/img",
 	"assets.fonts" : "app/smartpage/assets/fonts",
-	"app.img" : "app/smartpage/assets/app/img",
-	"dir.sys" : null,
-	"dir.theme" : null,
-	"dir.admin" : null,
-	"dir.uploads" : "public/uploads",
-	"dir.cache.images" : "storage/cache/images",
-	"dir.cache.assets" : "storage/cache/assets"
+	"uploads" : "public/uploads",
+	"cache.images" : "storage/cache/images",
+	"cache.assets" : "storage/cache/assets",
+	"app.img" : "app/smartpage/assets/app/img"
 }

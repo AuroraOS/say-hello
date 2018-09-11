@@ -28,7 +28,7 @@ class SPBootstrap extends Middleware
 			 * @var [type]
 			 */
 			
-			 $sp_tpls = $this->container['conf']->glob('init.sp');
+			 $sp_tpls = $this->container['conf']->get('app.sp');
 			 $this->view->getEnvironment()->getLoader()->prependPath($sp_tpls, 'sp');
       
 			

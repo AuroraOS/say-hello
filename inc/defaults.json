@@ -1,0 +1,40 @@
+{
+	"app.name": "SmartPage Framework",
+	"app.version" : "1.0",
+	"app.description" : "The best and easyest way to create new websites, what is using cuting edge techologies.",
+	"app.logo" : "smartpage.png",
+	"views.bootswatch.api": "https://bootswatch.com/api/4.json",
+	"views.bootswatch.version": 4,
+	"views.bootswatch.theme": "curelan",
+	"assets": {
+    "core": {
+      "nicescroll": {
+        "enable": true,
+        "minable": true,
+        "deffered": true,
+        "js": [
+          "https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.5/jquery.nicescroll.min.js"
+        ]
+      },
+      "sweetalert": {
+        "enable": true,
+        "minable": true,
+        "deffered": true,
+        "css": [
+          "https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.6.6/sweetalert2.min.css"
+        ],
+        "js": [
+          "https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.6.6/sweetalert2.min.js"
+        ]
+      },
+      "csrf": {
+        "enable": true,
+        "minable": true,
+        "deffered": true,
+        "js": [
+          "cirrus_ui/js/csrf.min.js"
+        ]
+      }
+    }
+  }
+}
